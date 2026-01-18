@@ -1,0 +1,10 @@
+# Text files: keep LF
+*.py        text eol=lf
+*.md        text eol=lf
+*.sh        text eol=lf
+
+# Data files: do NOT touch line endings
+*.tsv       -text
+*.csv       -text
+*.npy       -text
+*.npz       -text

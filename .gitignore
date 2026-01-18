@@ -1,0 +1,19 @@
+```gitignore
+# Python cache
+__pycache__/
+*.pyc
+
+# packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# logs / checkpoints (optional: keep demo checkpoint tracked if you want)
+logs/
+checkpoints/EGSP_tmp/
+checkpoints/EGSP_End2End_tmp/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
