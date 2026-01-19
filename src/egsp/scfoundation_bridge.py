@@ -71,6 +71,7 @@ def import_scfoundation():
 
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model = model.to(device)
+        model.eval()
 
         return model, config
 
