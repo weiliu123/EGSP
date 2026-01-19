@@ -6,7 +6,7 @@ EGSP is a scFoundation-based survival prediction framework that integrates:
 - and clinical variables (e.g., age, gender, pTNM)
 
 Two usage modes are provided:
-1) **EGSP (Embedding-based)**: takes embeddings + gene expression + clinical variables as input (fast, lightweight; does NOT require scFoundation code).
+1) **EGSP**: takes embeddings + gene expression + clinical variables as input (fast, lightweight; does NOT require scFoundation code).
 2) **EGSP End-to-End**: takes gene counts as input and extracts embeddings internally using scFoundation (requires scFoundation pretrained checkpoint).
 
 This repository provides **minimal runnable demos** for reproducibility and illustration. The included checkpoint and demo data are **for demonstration only** (not intended to cover all TCGA cancer types).
@@ -46,7 +46,6 @@ EGSP/
 ```
 ---
 
-Install dependencies:
 
 ## Installation
 

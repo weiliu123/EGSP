@@ -9,3 +9,4 @@ scanpy
 anndata
 matplotlib
 tqdm
+scikit-survival

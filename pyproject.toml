@@ -13,7 +13,8 @@ dependencies = [
     "torch",
     "scikit-learn",
     "transformers",
-    "datasets"
+    "datasets",
+    "scikit-survival"
 ]
 
 [tool.setuptools]
